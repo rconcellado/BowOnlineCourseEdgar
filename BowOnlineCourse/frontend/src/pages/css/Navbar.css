@@ -1,0 +1,48 @@
+.navbar {
+    background-color: #007c1e; /* Dark green background */
+    color: white; /* White text color */
+    display: flex;
+    justify-content: space-between; /* This spreads out the logo and the menu items */
+    align-items: center; /* This vertically centers the contents */
+    padding: 0.5rem 1rem; /* Add some padding around the contents */
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center; /* This will keep the logo vertically aligned */
+  }
+  
+  .navbar-logo img {
+    height: 50px; /* Adjust the size as needed */
+    width: auto; /* Keep the aspect ratio of the logo */
+  }
+  
+  /* Style for the links or items on the right side of the navbar, if any */
+  .navbar-menu {
+    display: flex;
+    list-style: none; /* Removes bullet points from list items */
+  }
+  
+  .navbar-menu li {
+    padding: 0 15px; /* Spacing between menu items */
+  }
+  
+  .navbar-menu a {
+    color: white; /* Links are white */
+    text-decoration: none; /* No underlines on the links */
+    font-weight: bold; /* Optional: if you want the font to be bold */
+  }
+  
+  /* Add media queries if you need responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .navbar-menu {
+      flex-direction: column;
+    }
+    .navbar-menu li {
+      padding: 5px 0; /* More vertical padding for smaller screens */
+    }
+  }
+  

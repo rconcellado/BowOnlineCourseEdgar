@@ -1,0 +1,113 @@
+.login-container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .role-selection {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* margin-top: 20px; */
+    gap: 20px;
+  }
+  
+  .role-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .role-card:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .role-card.selected {
+    border-color: blue;
+    background-color: #e0e0ff;
+  }
+  
+  .role-card img {
+    max-width: 80px;  /* adjust as per your requirements */
+    max-height: 80px; /* adjust as per your requirements */
+    object-fit: cover; /* this ensures the aspect ratio is maintained */
+    border-radius: 50%; /* if you want to make the image circular */
+  }
+  
+  .next-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .signin-button {
+    /* display: block; */
+    margin: 5px auto;
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .normal-button {
+    /* display: block; */
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .signin-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .next-button:hover {
+    background-color: darkgreen;
+  }
+
+  .textbox {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Slightly rounded edges */
+    font-size: 10px;
+  }
+    .datepicker {
+      width: 100%;
+      padding: 10px 15px;
+      margin: 10px 0;
+      border: 1px solid #e0e0e0; /* Light gray border */
+      border-radius: 5px; /* Slightly rounded edges */
+      font-size: 10px;  
+}
+
+table {
+  border-collapse: collapse;  /* Collapse borders */
+  width: 100%;  /* Set width to 100% for full width */
+  border: 1px solid #ddd; /* Add a border to the table */
+}
+
+th, td {
+  border: 1px solid #ddd;  /* Add borders to table headers and cells */
+  padding: 8px;  /* Add some padding */
+}
+
+th {
+  background-color: #f2f2f2;  /* Optional: Add a background color to headers */
+}
