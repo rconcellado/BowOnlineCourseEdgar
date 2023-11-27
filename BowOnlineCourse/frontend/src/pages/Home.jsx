@@ -15,6 +15,7 @@ import Login from '../Login/'
 //import HomePictures from './css/HomePictures'
 // import ControlledCarousel from './css/ControlledCarousel'
 import backgroundImage from './website-feature.png';
+import { Link } from 'react-router-dom';
 
 function Home() {
 
@@ -29,6 +30,7 @@ function Home() {
           {/* <div className='homeBackground'> */}
             {/* <div> */}
                 <h1 class="jumbotron" className="welcomeToBow">Welcome to Bow Valley School's Course Enrollment!</h1>
+                <Link to='/loginOption'>login</Link>
             {/* </div> */}
           {/* </div> */}
           </div>   

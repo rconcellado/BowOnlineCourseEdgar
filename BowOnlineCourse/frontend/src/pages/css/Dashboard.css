@@ -1,0 +1,37 @@
+body .container-fluid,
+body .row,
+body .col-9 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+body .main-content > .d-flex {
+    background-color: white;
+    padding: 20px 30px;
+ 
+}
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: darkblue;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+}
+.nav-menu {
+    list-style-type: none;
+    padding-left: 40px;
+}
+.nav-menu li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.nav-menu li i {
+    margin-right: 25px;  
+}

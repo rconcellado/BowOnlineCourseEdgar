@@ -98,16 +98,17 @@ function LoginForm () {
       <br/>
       <br/>  
 
-      {
+      {/* {
         role === 'student' &&
         <>
           <button onClick={handleLogin} className="signin-button">Student Signin</button>
           <Link to="/newsignup" className='help-text'>Need an account? Register here.</Link>
         </>
-      }
+      } */}
 
-      {role === 'admin' && <button onClick={handleLoginAdmin} className = "button-primary">Admin Signin</button>}
-      
+      <button onClick={handleLoginAdmin} className = "button-primary">Admin Signin</button>
+      <p>dont have an account?</p>
+        <Link to='/newsignup'>Here</Link>
       </div>
   );
 };
